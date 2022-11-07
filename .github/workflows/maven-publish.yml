@@ -27,7 +27,7 @@ jobs:
         settings-path: ${{ github.workspace }}
 
     - name: Build with Maven
-      run: mvn clean deploy -DskipTests --no-transfer-progress -DaltDeploymentRepository=local::file:$env:GITHUB_WORKSPACE/repository/
+      run: mvn clean deploy -DskipTests --no-transfer-progress -DaltDeploymentRepository=snapshots::default::file://$env:GITHUB_WORKSPACE/repository/
       env:
         GITHUB_TOKEN: ${{ secrets.CLIENTEAFIRMA_TOKEN }}
         GITHUB_WORKSPACE: ${{ github.workspace }}
