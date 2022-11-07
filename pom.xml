@@ -33,19 +33,19 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:https://github.com/ctt-gob-es/clienteafirma.git</connection>
-		<developerConnection>scm:git:ssh://github.com/ctt-gob-es/clienteafirma.git</developerConnection>
-		<url>https://github.com/ctt-gob-es/clienteafirma</url>
+		<connection>scm:git:https://github.com/alfem/clienteafirma.git</connection>
+		<developerConnection>scm:git:ssh://github.com/alfem/clienteafirma.git</developerConnection>
+		<url>https://github.com/alfem/clienteafirma</url>
 	</scm>
 	
 	<distributionManagement>
 	  <snapshotRepository>
-		<id>ossrh</id>
-		<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		<id>github</id>
+		<url>https://maven.pkg.github.com/alfem/clienteafirma-snapshots</url>
 	  </snapshotRepository>
 	  <repository>
-		<id>ossrh</id>
-		<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		<id>github</id>
+		<url>https://maven.pkg.github.com/alfem/clienteafirma</url>
 	  </repository>
 	</distributionManagement>
 	
